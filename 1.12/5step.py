@@ -2,13 +2,8 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-if (a < c) and (b < c) :
-    print(c)
-    if a < b > c:
-        print(b)
-        print(a)
-    elif a > b > c:
-        print(a)
-        print(b)
-elif (c<b) and (a<b):
-
+arr = [a,b,c]
+arr.sort()
+print(arr[2])
+print(arr[0])
+print(arr[1])
