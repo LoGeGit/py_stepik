@@ -25,7 +25,7 @@
 numprogrammers = input()
 lenght = len(str(numprogrammers))
 
-if 10 < int(numprogrammers) < 15:
+if 10 < int(numprogrammers) < 15 or 110 < int(numprogrammers) < 115:
     ans = 'программистов'
 elif (numprogrammers[lenght-1] == '0') or ( 5 <= int(numprogrammers[lenght-1]) <= 9):
     ans = 'программистов'
